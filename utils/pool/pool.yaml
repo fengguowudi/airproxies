@@ -1,208 +1,226 @@
 proxies:
-  - {name: CZ 1｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
-  - {name: CZ 2｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: Go加速 - V1 IEPL | A AUTO, server: x1.gogoosub1.xyz, port: 31000, type: ss, cipher: aes-256-gcm, password: WK3iC7, udp: true}
-  - {name: Go加速 - V1 IEPL | HK2, server: x1.gogoosub1.xyz, port: 31102, type: ss, cipher: aes-256-gcm, password: WK3iC7, udp: true}
-  - {name: Go加速 - V1 IEPL | IN1, server: x1.gogoosub1.xyz, port: 31909, type: ss, cipher: aes-256-gcm, password: WK3iC7, udp: true}
-  - {name: Go加速 - V1 IEPL | JP1, server: x1.gogoosub1.xyz, port: 31301, type: ss, cipher: aes-256-gcm, password: WK3iC7, udp: true}
-  - {name: Go加速 - V1 IEPL | TW1, server: x1.gogoosub1.xyz, port: 31201, type: ss, cipher: aes-256-gcm, password: WK3iC7, udp: true}
-  - {name: JP01-V2-直连, server: jp01.henet.cyou, port: 20000, type: vmess, uuid: 364c9df7-de4c-451f-bc30-85139904fbbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: JP02-V2-直连, server: jp02.henet.cyou, port: 20000, type: vmess, uuid: 364c9df7-de4c-451f-bc30-85139904fbbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: THA CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61022, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: TUR CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61021, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 364c9df7-de4c-451f-bc30-85139904fbbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 364c9df7-de4c-451f-bc30-85139904fbbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: UA 1｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
-  - {name: UA 2｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: UA 3｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
-  - {name: UA 4｜openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
-  - {name: UA 5｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: "VNM 01 x1.0 [Trojan] [直連]", server: 103.184.113.174, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "VNM 02 x1.0 [Trojan] [直連]", server: 103.183.112.98, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "VNM 03 x1.0 [Trojan] [直連]", server: 103.183.112.187, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 1｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: LT 1｜openit.ml, server: 77.83.254.230, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: LT 2｜openit.ml, server: 77.83.254.102, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: LT 3｜openit.ml, server: 77.83.254.228, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: LT 4｜openit.ml, server: 77.83.254.229, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: LT 5｜openit.ml, server: 77.83.254.101, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: UA 1｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: UA 2｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
+  - {name: UA 3｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: UA 4｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1｜openit.ml, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 CN 2｜openit.ml, server: cmrelay01.downsite.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: 🇨🇳 CN 3｜openit.ml, server: cmrelay01.downsite.xyz, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: "", udp: true}
-  - {name: 🇨🇳 TWN CM.A/01 x1.0, server: cm.3sx.xyz, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇨🇳 TWN CM.A/02 x1.0, server: cm.3sx.xyz, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇨🇳 TWN CT/01 x1.0, server: 125.124.254.165, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇨🇳 TWN IEPL.A/01 x3.0, server: iiiii.3sx.xyz, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇨🇳 TWN IEPL.A/02 x3.0, server: iiiii.3sx.xyz, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇨🇳 VIP|台湾|中转|01|Lite, server: gy.51vv.top, port: 32010, type: ss, cipher: chacha20-ietf-poly1305, password: 04a2f436-980c-4e94-9d3a-dce7b4acd878, udp: true}
-  - {name: "🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 游戏节点 | 443 | 广州 | 限速8M, server: 175.178.163.153, port: 443, type: vmess, uuid: 8c20ed9d-7902-497e-887a-875ceaf9ab4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇩🇪 JCBB_德国01【vip1】, server: gkdcm.myjcbbcn.top, port: 25883, type: vmess, uuid: 6ce84a20-bb7e-4e65-ac52-0cf90127153c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇫🇷 FR 1｜openit.ml, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 1｜openit.ml, server: tj-sg01.yiyodns.xyz, port: 443, type: trojan, password: 8c160526-9900-3a00-ad06-08ac76357b02, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 10｜openit.ml, server: cmb.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 11｜openit.ml, server: cmb.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 12｜openit.ml, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 CN 13｜openit.ml, server: 125.124.254.165, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 14｜openit.ml, server: 125.124.254.165, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 15｜openit.ml, server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 16｜openit.ml, server: cmb.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 17｜openit.ml, server: 125.124.254.165, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 18｜openit.ml, server: 125.124.254.165, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 19｜openit.ml, server: cmb.3sx.xyz, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: cmb.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 20｜openit.ml, server: 116.129.253.134, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 21｜openit.ml, server: 116.129.253.134, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 22｜openit.ml, server: 116.129.253.134, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2｜openit.ml, server: cmb.3sx.xyz, port: 61022, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 3｜openit.ml, server: cmb.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 4｜openit.ml, server: cmb.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 5｜openit.ml, server: 125.124.254.165, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 6｜openit.ml, server: 125.124.254.165, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 7｜openit.ml, server: 125.124.254.165, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 8｜openit.ml, server: 125.124.254.165, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 CN 9｜openit.ml, server: cmb.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_1, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_2, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_3, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_4, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_5, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_1, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_2, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_3, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_4, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_5, server: hj001.xiba1.xyz, port: 20768, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_1, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_2, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_3, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_4, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_5, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_1, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_2, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_3, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_4, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: "🇬🇧 GBR 01 x1.0 [Trojan] [直連]", server: 45.61.164.184, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GBR CM.A/01 x1.0, server: cm.3sx.xyz, port: 61023, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: "🇭🇰 ??HK-02|Main", server: hk02.bibio.top, port: 55212, type: vmess, uuid: d4129af6-21a2-4c7b-b6ed-47a66907e2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk02.bibio.top}}, udp: true}
-  - {name: "🇭🇰 ??HK-04|Main", server: hk04.bibio.top, port: 55214, type: vmess, uuid: d4129af6-21a2-4c7b-b6ed-47a66907e2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk04.bibio.top}}, udp: true}
-  - {name: "🇭🇰 ??HK-05|Main", server: hk05.bibio.top, port: 55215, type: vmess, uuid: d4129af6-21a2-4c7b-b6ed-47a66907e2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk05.bibio.top}}, udp: true}
-  - {name: "🇭🇰 ??HK-14|Main", server: hk14.bibio.top, port: 21786, type: vmess, uuid: d4129af6-21a2-4c7b-b6ed-47a66907e2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk14.bibio.top}}, udp: true}
-  - {name: 🇭🇰 HK 1｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 2｜openit.ml, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20715, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4｜openit.ml, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5｜openit.ml, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 6｜openit.ml, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 优化  |  香港 02, server: yd.te6621.xyz, port: 24982, type: trojan, password: 474e3e38-ecdc-3937-9a6b-b74c1f4cf3e4, sni: hk2.ure.lol, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 优化  |  香港 03, server: yd.te6621.xyz, port: 60076, type: vmess, uuid: 474e3e38-ecdc-3937-9a6b-b74c1f4cf3e4, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hk3.ure.lol}}, udp: true}
-  - {name: 🇭🇰 HK 直连  |  香港 01, server: hk1.ure.lol, port: 12345, type: vmess, uuid: 474e3e38-ecdc-3937-9a6b-b74c1f4cf3e4, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 01 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12301, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 02 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12302, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 03 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12303, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M", server: cm.3sx.xyz, port: 12305, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG 05 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG AWS 01 x1.0 [Trojan] [直連]", server: 18.166.56.41, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG AWS 02 x1.0 [Trojan] [直連]", server: 18.162.58.212, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG AWS 03 x1.0 [Trojan] [直連]", server: 18.163.111.231, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG CM.A/01 x1.0, server: cm.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.A/02 x1.0, server: cm.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.A/03 x1.0, server: cm.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.A/04 x1.0, server: cm.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.A/05 x1.0, server: cm.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.B/01 x1.0, server: cmb.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.B/02 x1.0, server: cmb.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.B/03 x1.0, server: cmb.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.B/04 x1.0, server: cmb.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CM.B/05 x1.0, server: cmb.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CT/01 x1.0, server: 125.124.254.165, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CT/02 x1.0, server: 125.124.254.165, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CT/03 x1.0, server: 125.124.254.165, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CT/04 x1.0, server: 125.124.254.165, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG CT/05 x1.0, server: 125.124.254.165, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: "🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]", server: 154.3.35.129, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]", server: 103.117.102.8, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 03 x3.0 [Trojan] [直連]", server: 103.117.102.88, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 04 x3.0 [Trojan] [直連]", server: 103.117.102.96, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 05 x3.0 [Trojan] [直連]", server: 103.117.101.75, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 06 x3.0 [Trojan] [直連]", server: 103.117.101.76, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 07 x3.0 [Trojan] [直連]", server: 103.117.101.105, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 08 x3.0 [Trojan] [直連]", server: 103.135.249.221, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 09 x3.0 [Trojan] [直連]", server: 103.135.249.222, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 10 x3.0 [Trojan] [直連]", server: 103.135.249.223, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 11 x3.0 [Trojan] [直連]", server: 103.135.249.229, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 12 x3.0 [Trojan] [直連]", server: 103.135.251.37, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 13 x3.0 [Trojan] [直連]", server: 103.135.251.38, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 14 x3.0 [Trojan] [直連]", server: 103.135.251.39, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 15 x3.0 [Trojan] [直連]", server: 103.135.248.96, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 16 x3.0 [Trojan] [直連]", server: 103.135.248.115, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG DMIT 17 x3.0 [Trojan] [直連]", server: 103.135.248.212, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點, server: 59.148.152.78, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點, server: 59.148.152.78, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 HKG ICABLE 01 x1.0 [Trojan] [直連]", server: 125.59.195.6, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HKG IEPL.A/01 x3.0, server: iiiii.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG IEPL.A/02 x3.0, server: iiiii.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG IEPL.A/03 x3.0, server: iiiii.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG IEPL.A/04 x3.0, server: iiiii.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 HKG IEPL.A/05 x3.0, server: iiiii.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇭🇰 JCBB_香港05【vip1】, server: gkdcm.myjcbbcn.top, port: 25897, type: vmess, uuid: 6ce84a20-bb7e-4e65-ac52-0cf90127153c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 Lv.2 | 香港 | IEPL| 1.0×, server: x1.mceee.xyz, port: 22113, type: vmess, uuid: bb5bf082-5b3d-3506-93a7-fa257a53b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: x1.mceee.xyz}}, udp: true}
-  - {name: 🇭🇰 VIP|香港|中转|02|Lite, server: gy.51vv.top, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 04a2f436-980c-4e94-9d3a-dce7b4acd878, udp: true}
-  - {name: 🇭🇰 VIP|香港|免流|01|Plus, server: 20.222.148.197, port: 80, type: vmess, uuid: 04a2f436-980c-4e94-9d3a-dce7b4acd878, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zasasdsmkhjn}, udp: true}
-  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 T-02 *专线 | x1, server: 20.187.120.123, port: 64655, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: hke2.qcjs.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 T-03 *专线 | x1, server: 20.187.120.123, port: 14503, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: hke3.qcjs.one, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 JCBB_印度01【vip1】, server: gkdcm.myjcbbcn.top, port: 25882, type: vmess, uuid: 6ce84a20-bb7e-4e65-ac52-0cf90127153c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇮🇳 Lv.2 | 印度 | IEPL | 1.0×, server: x1.mceee.xyz, port: 22925, type: vmess, uuid: bb5bf082-5b3d-3506-93a7-fa257a53b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JCBB_日本02【vip1】, server: gkdcu.myjcbbcn.top, port: 25888, type: vmess, uuid: 6ce84a20-bb7e-4e65-ac52-0cf90127153c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JP 优化  |  日本 01, server: yd.te6621.xyz, port: 33060, type: trojan, password: 474e3e38-ecdc-3937-9a6b-b74c1f4cf3e4, sni: jp1.ure.lol, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 优化  |  日本 02, server: yd.te6621.xyz, port: 54115, type: trojan, password: 474e3e38-ecdc-3937-9a6b-b74c1f4cf3e4, sni: jp2.ure.lol, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 01 x1.0 Trojan測試性節點, server: cm.3sx.xyz, port: 12307, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN 02 x1.0 Trojan測試性節點, server: cm.3sx.xyz, port: 12309, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JPN CM.A/01 x1.0, server: cm.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CM.A/02 x1.0, server: cm.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CM.B/01 x1.0, server: cmb.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CM.B/02 x1.0, server: cmb.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CT/01 x1.0, server: 125.124.254.165, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CT/02 x1.0, server: 125.124.254.165, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN CT/03 x1.0, server: 125.124.254.165, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN IEPL.A/01 x3.0, server: iiiii.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 JPN IEPL.A/02 x3.0, server: iiiii.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇯🇵 Lv.1 | 日本 | IEPL | 1.0×, server: x1.mceee.xyz, port: 21311, type: vmess, uuid: bb5bf082-5b3d-3506-93a7-fa257a53b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: x1.mceee.xyz}}, udp: true}
-  - {name: 🇯🇵 VIP|日本|中转|01|Lite, server: gy.51vv.top, port: 32003, type: ss, cipher: chacha20-ietf-poly1305, password: 04a2f436-980c-4e94-9d3a-dce7b4acd878, udp: true}
-  - {name: 🇰🇭 柬埔寨, server: kh1.nodegz.top, port: 443, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: kh1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 Lv.2 | 韩国 | IEPL | 1.0×, server: x1.mceee.xyz, port: 22521, type: vmess, uuid: bb5bf082-5b3d-3506-93a7-fa257a53b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: x1.mceee.xyz}}, udp: true}
-  - {name: 🇱🇺 卢森堡, server: lu1.crunode.top, port: 1400, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: lu1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇴 MA|澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: d644eeff-0d45-30b6-804a-106ddf5860a6, sni: ma-ctm.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 1｜openit.ml, server: hkbgp2.jiantian.xyz, port: 14572, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 10｜openit.ml, server: 103.135.248.115, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 11｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 12｜openit.ml, server: 59.148.152.78, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 13｜openit.ml, server: 103.135.248.212, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 14｜openit.ml, server: 125.59.195.6, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 15｜openit.ml, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 16｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 17｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 18｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 19｜openit.ml, server: 20.187.120.123, port: 64655, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: hke2.qcjs.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 1｜openit.ml, server: 103.117.101.75, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 20｜openit.ml, server: 20.187.120.123, port: 14503, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: hke3.qcjs.one, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 21｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 22｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 2｜openit.ml, server: 103.135.249.223, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 3｜openit.ml, server: 103.135.249.222, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 4｜openit.ml, server: 103.135.249.229, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 5｜openit.ml, server: 103.135.249.221, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 6｜openit.ml, server: 103.135.251.37, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 7｜openit.ml, server: 103.135.251.39, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 8｜openit.ml, server: 103.135.251.38, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 9｜openit.ml, server: 103.135.248.96, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_1, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_2, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_3, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_4, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_5, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 1｜openit.ml, server: us1.nodegz.top, port: 444, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 2｜openit.ml, server: t03.ssrsub.com, port: 8443, type: trojan, password: fb61d738-ef95-446d-9004-c93a1a975cad, sni: d76bb35696.wns.windows.com, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RUS CM.A/01 x1.0, server: cm.3sx.xyz, port: 61024, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: "🇸🇬 ??SG-02|Main", server: hk23.bibio.top, port: 55215, type: vmess, uuid: d4129af6-21a2-4c7b-b6ed-47a66907e2c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk23.bibio.top}}, udp: true}
-  - {name: 🇸🇬 JCBB_新加坡02【vip1】, server: gkdcm1.myjcbbcn.top, port: 25895, type: vmess, uuid: 6ce84a20-bb7e-4e65-ac52-0cf90127153c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇸🇬 SG 1｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 SGP 01 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12311, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP 02 x1.0 Trojan測試性節點, server: cm.3sx.xyz, port: 12304, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SGP CM.A/01 x1.0, server: cm.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP CM.A/02 x1.0, server: cm.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP CM.B/02 x1.0, server: cmb.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP CT/01 x1.0, server: 125.124.254.165, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP CT/02 x1.0, server: 125.124.254.165, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP IEPL.A/01 x3.0, server: iiiii.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 SGP IEPL.A/02 x3.0, server: iiiii.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇸🇬 新加坡 T-01 *直连 | x1, server: sgb1.qcjs.one, port: 443, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: sgb1.qcjs.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 T-02 *直连 | x1, server: sgb2.qcjs.one, port: 443, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: sgb2.qcjs.one, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 T-03 *原生 | x1, server: panor.qcjs.ml, port: 20032, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: sgc1.qcjs.one, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 Lv.1 | 美国 | IEPL| 1.0×, server: x1.mceee.xyz, port: 21611, type: vmess, uuid: bb5bf082-5b3d-3506-93a7-fa257a53b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 14｜openit.ml, server: gb.v2yyds.com, port: 32912, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 15｜openit.ml, server: gb.v2yyds.com, port: 32911, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 16｜openit.ml, server: ss2.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 17｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 18｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 19｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 20｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 21｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 22｜openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 23｜openit.ml, server: sgg.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 24｜openit.ml, server: gb.v2yyds.com, port: 32913, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 25｜openit.ml, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 26｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 27｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: us-03.licom.ml, port: 8443, type: trojan, password: a45be70d-abf2-4069-804e-e79ef87ad610, sni: us-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 01 x1.0 [Trojan] [直連]", server: 107.174.246.44, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 02 x1.0 [Trojan] [直連]", server: 104.168.19.25, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 03 x1.0 [Trojan] [直連]", server: 192.210.142.107, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 04 x1.0 [Trojan] [直連]", server: 50.114.56.142, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 05 x1.0 [Trojan] [直連]", server: 50.114.56.141, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 06 x1.0 [Trojan] [直連]", server: 77.83.254.230, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 07 x1.0 [Trojan] [直連]", server: 77.83.254.229, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 08 x1.0 [Trojan] [直連]", server: 77.83.254.228, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 09 x1.0 [Trojan] [直連]", server: 77.83.254.102, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 USA 10 x1.0 [Trojan] [直連]", server: 77.83.254.101, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 USA CM.B/01 x1.0, server: cmb.3sx.xyz, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 USA CM.B/02 x1.0, server: cmb.3sx.xyz, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 USA CM.B/03 x1.0, server: cmb.3sx.xyz, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 USA IEPL.A/01 x3.0, server: iiiii.3sx.xyz, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 USA IEPL.A/02 x3.0, server: iiiii.3sx.xyz, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 USA IEPL.A/03 x3.0, server: iiiii.3sx.xyz, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, udp: true}
-  - {name: 🇺🇸 拉斯维加斯, server: us1.crunode.top, port: 443, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: us1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: us1.nodegz.top, port: 444, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 3｜openit.ml, server: hkbgp2.jiantian.xyz, port: 14572, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_1, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_2, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_3, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_4, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_5, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 1｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 2｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 3｜openit.ml, server: sgb1.qcjs.one, port: 443, type: trojan, password: 7b12d2a4-3158-473a-862f-1ccc7699f6a5, sni: sgb1.qcjs.one, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 4｜openit.ml, server: 625hk.ok365.cyou, port: 443, type: trojan, password: 8ca09dac-c2d3-4aeb-87e5-26b64ebcf5cf, sni: 625hk.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 5｜openit.ml, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 8ca09dac-c2d3-4aeb-87e5-26b64ebcf5cf, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10｜openit.ml, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 13｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 14｜openit.ml, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 15｜openit.ml, server: 45.61.164.184, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 16｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 17｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 18｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 19｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 20｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 21｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 22｜openit.ml, server: us-03.licom.ml, port: 8443, type: trojan, password: a45be70d-abf2-4069-804e-e79ef87ad610, sni: us-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 23｜openit.ml, server: 107.174.246.44, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 24｜openit.ml, server: 104.168.19.25, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 25｜openit.ml, server: 192.210.142.107, port: 12306, type: trojan, password: 0d7d7592-6f48-43fc-a901-1ca4e35d7bc8, sni: douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 26｜openit.ml, server: gb.v2yyds.com, port: 32913, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 27｜openit.ml, server: us1.crunode.top, port: 443, type: trojan, password: 8dfe239e-2b68-3713-b806-12b37191bb10, sni: us1.crunode.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 28｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 29｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: gb.v2yyds.com, port: 32912, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 30｜openit.ml, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 31｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 32｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 33｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 34｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 35｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 36｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 37｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 38｜openit.ml, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 39｜openit.ml, server: HJ001.xiba1.xyz, port: 20770, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: gb.v2yyds.com, port: 32911, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 40｜openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_1, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_2, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_3, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_4, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_5, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_1, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_2, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_3, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_4, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_5, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_1, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_2, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_3, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_4, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_5, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_11, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_12, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_13, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_14, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_15, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 0e8df867-6824-3d80-b5e7-83a15821d098, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
@@ -210,164 +228,157 @@ proxy-groups:
       - 💡 Auto
       - DIRECT
       - CZ 1｜openit.ml
-      - CZ 2｜openit.ml
-      - Go加速 - V1 IEPL | A AUTO
-      - Go加速 - V1 IEPL | HK2
-      - Go加速 - V1 IEPL | IN1
-      - Go加速 - V1 IEPL | JP1
-      - Go加速 - V1 IEPL | TW1
-      - JP01-V2-直连
-      - JP02-V2-直连
-      - THA CM.B/01 x1.0
-      - TUR CM.B/01 x1.0
-      - TW01-V2-直连
-      - TW02-V2-直连
+      - LT 1｜openit.ml
+      - LT 2｜openit.ml
+      - LT 3｜openit.ml
+      - LT 4｜openit.ml
+      - LT 5｜openit.ml
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
-      - UA 5｜openit.ml
-      - VNM 01 x1.0 [Trojan] [直連]
-      - VNM 02 x1.0 [Trojan] [直連]
-      - VNM 03 x1.0 [Trojan] [直連]
       - 🇦🇺 AU 1｜openit.ml
       - 🇦🇺 AU 2｜openit.ml
+      - 🇨🇦 CA 1｜openit.ml
+      - 🇨🇳 CN 10｜openit.ml
+      - 🇨🇳 CN 11｜openit.ml
+      - 🇨🇳 CN 12｜openit.ml
+      - 🇨🇳 CN 13｜openit.ml
+      - 🇨🇳 CN 14｜openit.ml
+      - 🇨🇳 CN 15｜openit.ml
+      - 🇨🇳 CN 16｜openit.ml
+      - 🇨🇳 CN 17｜openit.ml
+      - 🇨🇳 CN 18｜openit.ml
+      - 🇨🇳 CN 19｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
+      - 🇨🇳 CN 20｜openit.ml
+      - 🇨🇳 CN 21｜openit.ml
+      - 🇨🇳 CN 22｜openit.ml
       - 🇨🇳 CN 2｜openit.ml
       - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 TWN CM.A/01 x1.0
-      - 🇨🇳 TWN CM.A/02 x1.0
-      - 🇨🇳 TWN CT/01 x1.0
-      - 🇨🇳 TWN IEPL.A/01 x3.0
-      - 🇨🇳 TWN IEPL.A/02 x3.0
-      - 🇨🇳 VIP|台湾|中转|01|Lite
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇨🇳 游戏节点 | 443 | 广州 | 限速8M
-      - 🇩🇪 JCBB_德国01【vip1】
-      - 🇫🇷 FR 1｜openit.ml
+      - 🇨🇳 CN 4｜openit.ml
+      - 🇨🇳 CN 5｜openit.ml
+      - 🇨🇳 CN 6｜openit.ml
+      - 🇨🇳 CN 7｜openit.ml
+      - 🇨🇳 CN 8｜openit.ml
+      - 🇨🇳 CN 9｜openit.ml
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_4
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
-      - 🇬🇧 GBR 01 x1.0 [Trojan] [直連]
-      - 🇬🇧 GBR CM.A/01 x1.0
-      - 🇭🇰 ??HK-02|Main
-      - 🇭🇰 ??HK-04|Main
-      - 🇭🇰 ??HK-05|Main
-      - 🇭🇰 ??HK-14|Main
+      - 🇭🇰 HK 10｜openit.ml
+      - 🇭🇰 HK 11｜openit.ml
+      - 🇭🇰 HK 12｜openit.ml
+      - 🇭🇰 HK 13｜openit.ml
+      - 🇭🇰 HK 14｜openit.ml
+      - 🇭🇰 HK 15｜openit.ml
+      - 🇭🇰 HK 16｜openit.ml
+      - 🇭🇰 HK 17｜openit.ml
+      - 🇭🇰 HK 18｜openit.ml
+      - 🇭🇰 HK 19｜openit.ml
       - 🇭🇰 HK 1｜openit.ml
+      - 🇭🇰 HK 20｜openit.ml
+      - 🇭🇰 HK 21｜openit.ml
+      - 🇭🇰 HK 22｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
       - 🇭🇰 HK 4｜openit.ml
       - 🇭🇰 HK 5｜openit.ml
       - 🇭🇰 HK 6｜openit.ml
-      - 🇭🇰 HK 优化  |  香港 02
-      - 🇭🇰 HK 优化  |  香港 03
-      - 🇭🇰 HK 直连  |  香港 01
-      - 🇭🇰 HKG 01 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 02 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
-      - 🇭🇰 HKG 05 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG AWS 01 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG AWS 02 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG AWS 03 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG CM.A/01 x1.0
-      - 🇭🇰 HKG CM.A/02 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇭🇰 HKG CM.B/04 x1.0
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CT/01 x1.0
-      - 🇭🇰 HKG CT/02 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
-      - 🇭🇰 HKG CT/05 x1.0
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 03 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 04 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 05 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 06 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 07 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 08 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 09 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 10 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 11 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 12 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 13 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 14 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 15 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 16 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 17 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG ICABLE 01 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG IEPL.A/01 x3.0
-      - 🇭🇰 HKG IEPL.A/02 x3.0
-      - 🇭🇰 HKG IEPL.A/03 x3.0
-      - 🇭🇰 HKG IEPL.A/04 x3.0
-      - 🇭🇰 HKG IEPL.A/05 x3.0
-      - 🇭🇰 JCBB_香港05【vip1】
-      - 🇭🇰 Lv.2 | 香港 | IEPL| 1.0×
-      - 🇭🇰 VIP|香港|中转|02|Lite
-      - 🇭🇰 VIP|香港|免流|01|Plus
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 T-02 *专线 | x1
-      - 🇭🇰 香港 T-03 *专线 | x1
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇮🇳 JCBB_印度01【vip1】
-      - 🇮🇳 Lv.2 | 印度 | IEPL | 1.0×
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇯🇵 JP 优化  |  日本 01
-      - 🇯🇵 JP 优化  |  日本 02
-      - 🇯🇵 JPN 01 x1.0 Trojan測試性節點
-      - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇯🇵 JPN CM.A/01 x1.0
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇯🇵 JPN CM.B/01 x1.0
-      - 🇯🇵 JPN CM.B/02 x1.0
-      - 🇯🇵 JPN CT/01 x1.0
-      - 🇯🇵 JPN CT/02 x1.0
-      - 🇯🇵 JPN CT/03 x1.0
-      - 🇯🇵 JPN IEPL.A/01 x3.0
-      - 🇯🇵 JPN IEPL.A/02 x3.0
-      - 🇯🇵 Lv.1 | 日本 | IEPL | 1.0×
-      - 🇯🇵 VIP|日本|中转|01|Lite
-      - 🇰🇭 柬埔寨
-      - 🇰🇷 Lv.2 | 韩国 | IEPL | 1.0×
-      - 🇱🇺 卢森堡
-      - 🇲🇴 MA|澳门
+      - 🇭🇰 HK 7｜openit.ml
+      - 🇭🇰 HK 8｜openit.ml
+      - 🇭🇰 HK 9｜openit.ml
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
-      - 🇷🇺 RUS CM.A/01 x1.0
-      - 🇸🇬 ??SG-02|Main
-      - 🇸🇬 JCBB_新加坡02【vip1】
+      - 🇷🇺 RU 3｜openit.ml
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_1
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_2
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_3
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_4
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_5
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
-      - 🇸🇬 SGP 02 x1.0 Trojan測試性節點
-      - 🇸🇬 SGP CM.A/01 x1.0
-      - 🇸🇬 SGP CM.A/02 x1.0
-      - 🇸🇬 SGP CM.B/01 x1.0
-      - 🇸🇬 SGP CM.B/02 x1.0
-      - 🇸🇬 SGP CT/01 x1.0
-      - 🇸🇬 SGP CT/02 x1.0
-      - 🇸🇬 SGP IEPL.A/01 x3.0
-      - 🇸🇬 SGP IEPL.A/02 x3.0
-      - 🇸🇬 新加坡 T-01 *直连 | x1
-      - 🇸🇬 新加坡 T-02 *直连 | x1
-      - 🇸🇬 新加坡 T-03 *原生 | x1
-      - 🇺🇸 Lv.1 | 美国 | IEPL| 1.0×
+      - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -387,32 +398,57 @@ proxy-groups:
       - 🇺🇸 US 25｜openit.ml
       - 🇺🇸 US 26｜openit.ml
       - 🇺🇸 US 27｜openit.ml
+      - 🇺🇸 US 28｜openit.ml
+      - 🇺🇸 US 29｜openit.ml
       - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 30｜openit.ml
+      - 🇺🇸 US 31｜openit.ml
+      - 🇺🇸 US 32｜openit.ml
+      - 🇺🇸 US 33｜openit.ml
+      - 🇺🇸 US 34｜openit.ml
+      - 🇺🇸 US 35｜openit.ml
+      - 🇺🇸 US 36｜openit.ml
+      - 🇺🇸 US 37｜openit.ml
+      - 🇺🇸 US 38｜openit.ml
+      - 🇺🇸 US 39｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 40｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 USA 01 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 02 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 03 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 04 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 05 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 06 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 07 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 08 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 09 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 10 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA CM.B/01 x1.0
-      - 🇺🇸 USA CM.B/02 x1.0
-      - 🇺🇸 USA CM.B/03 x1.0
-      - 🇺🇸 USA IEPL.A/01 x3.0
-      - 🇺🇸 USA IEPL.A/02 x3.0
-      - 🇺🇸 USA IEPL.A/03 x3.0
-      - 🇺🇸 拉斯维加斯
-      - 🇺🇸 美国
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_1
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_2
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_3
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_4
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_5
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_1
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_2
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_3
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_4
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_5
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_1
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_2
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_3
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_4
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_5
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_11
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_12
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_13
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_14
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_15
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9
   - name: 💡 Auto
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -420,164 +456,157 @@ proxy-groups:
     tolerance: 50
     proxies:
       - CZ 1｜openit.ml
-      - CZ 2｜openit.ml
-      - Go加速 - V1 IEPL | A AUTO
-      - Go加速 - V1 IEPL | HK2
-      - Go加速 - V1 IEPL | IN1
-      - Go加速 - V1 IEPL | JP1
-      - Go加速 - V1 IEPL | TW1
-      - JP01-V2-直连
-      - JP02-V2-直连
-      - THA CM.B/01 x1.0
-      - TUR CM.B/01 x1.0
-      - TW01-V2-直连
-      - TW02-V2-直连
+      - LT 1｜openit.ml
+      - LT 2｜openit.ml
+      - LT 3｜openit.ml
+      - LT 4｜openit.ml
+      - LT 5｜openit.ml
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
-      - UA 5｜openit.ml
-      - VNM 01 x1.0 [Trojan] [直連]
-      - VNM 02 x1.0 [Trojan] [直連]
-      - VNM 03 x1.0 [Trojan] [直連]
       - 🇦🇺 AU 1｜openit.ml
       - 🇦🇺 AU 2｜openit.ml
+      - 🇨🇦 CA 1｜openit.ml
+      - 🇨🇳 CN 10｜openit.ml
+      - 🇨🇳 CN 11｜openit.ml
+      - 🇨🇳 CN 12｜openit.ml
+      - 🇨🇳 CN 13｜openit.ml
+      - 🇨🇳 CN 14｜openit.ml
+      - 🇨🇳 CN 15｜openit.ml
+      - 🇨🇳 CN 16｜openit.ml
+      - 🇨🇳 CN 17｜openit.ml
+      - 🇨🇳 CN 18｜openit.ml
+      - 🇨🇳 CN 19｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
+      - 🇨🇳 CN 20｜openit.ml
+      - 🇨🇳 CN 21｜openit.ml
+      - 🇨🇳 CN 22｜openit.ml
       - 🇨🇳 CN 2｜openit.ml
       - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 TWN CM.A/01 x1.0
-      - 🇨🇳 TWN CM.A/02 x1.0
-      - 🇨🇳 TWN CT/01 x1.0
-      - 🇨🇳 TWN IEPL.A/01 x3.0
-      - 🇨🇳 TWN IEPL.A/02 x3.0
-      - 🇨🇳 VIP|台湾|中转|01|Lite
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇨🇳 游戏节点 | 443 | 广州 | 限速8M
-      - 🇩🇪 JCBB_德国01【vip1】
-      - 🇫🇷 FR 1｜openit.ml
+      - 🇨🇳 CN 4｜openit.ml
+      - 🇨🇳 CN 5｜openit.ml
+      - 🇨🇳 CN 6｜openit.ml
+      - 🇨🇳 CN 7｜openit.ml
+      - 🇨🇳 CN 8｜openit.ml
+      - 🇨🇳 CN 9｜openit.ml
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_4
+      - 🇨🇳 台湾 | Trojan | C | 5.0x | 黄金 | 原生動態IP |_5
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_1
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_2
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_3
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |_4
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
-      - 🇬🇧 GBR 01 x1.0 [Trojan] [直連]
-      - 🇬🇧 GBR CM.A/01 x1.0
-      - 🇭🇰 ??HK-02|Main
-      - 🇭🇰 ??HK-04|Main
-      - 🇭🇰 ??HK-05|Main
-      - 🇭🇰 ??HK-14|Main
+      - 🇭🇰 HK 10｜openit.ml
+      - 🇭🇰 HK 11｜openit.ml
+      - 🇭🇰 HK 12｜openit.ml
+      - 🇭🇰 HK 13｜openit.ml
+      - 🇭🇰 HK 14｜openit.ml
+      - 🇭🇰 HK 15｜openit.ml
+      - 🇭🇰 HK 16｜openit.ml
+      - 🇭🇰 HK 17｜openit.ml
+      - 🇭🇰 HK 18｜openit.ml
+      - 🇭🇰 HK 19｜openit.ml
       - 🇭🇰 HK 1｜openit.ml
+      - 🇭🇰 HK 20｜openit.ml
+      - 🇭🇰 HK 21｜openit.ml
+      - 🇭🇰 HK 22｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
       - 🇭🇰 HK 4｜openit.ml
       - 🇭🇰 HK 5｜openit.ml
       - 🇭🇰 HK 6｜openit.ml
-      - 🇭🇰 HK 优化  |  香港 02
-      - 🇭🇰 HK 优化  |  香港 03
-      - 🇭🇰 HK 直连  |  香港 01
-      - 🇭🇰 HKG 01 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 02 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
-      - 🇭🇰 HKG 05 x1.0 [Trojan] [中轉]
-      - 🇭🇰 HKG AWS 01 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG AWS 02 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG AWS 03 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG CM.A/01 x1.0
-      - 🇭🇰 HKG CM.A/02 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇭🇰 HKG CM.B/04 x1.0
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CT/01 x1.0
-      - 🇭🇰 HKG CT/02 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
-      - 🇭🇰 HKG CT/05 x1.0
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 03 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 04 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 05 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 06 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 07 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 08 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 09 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 10 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 11 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 12 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 13 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 14 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 15 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 16 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG DMIT 17 x3.0 [Trojan] [直連]
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG ICABLE 01 x1.0 [Trojan] [直連]
-      - 🇭🇰 HKG IEPL.A/01 x3.0
-      - 🇭🇰 HKG IEPL.A/02 x3.0
-      - 🇭🇰 HKG IEPL.A/03 x3.0
-      - 🇭🇰 HKG IEPL.A/04 x3.0
-      - 🇭🇰 HKG IEPL.A/05 x3.0
-      - 🇭🇰 JCBB_香港05【vip1】
-      - 🇭🇰 Lv.2 | 香港 | IEPL| 1.0×
-      - 🇭🇰 VIP|香港|中转|02|Lite
-      - 🇭🇰 VIP|香港|免流|01|Plus
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 T-02 *专线 | x1
-      - 🇭🇰 香港 T-03 *专线 | x1
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇮🇳 JCBB_印度01【vip1】
-      - 🇮🇳 Lv.2 | 印度 | IEPL | 1.0×
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇯🇵 JP 优化  |  日本 01
-      - 🇯🇵 JP 优化  |  日本 02
-      - 🇯🇵 JPN 01 x1.0 Trojan測試性節點
-      - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇯🇵 JPN CM.A/01 x1.0
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇯🇵 JPN CM.B/01 x1.0
-      - 🇯🇵 JPN CM.B/02 x1.0
-      - 🇯🇵 JPN CT/01 x1.0
-      - 🇯🇵 JPN CT/02 x1.0
-      - 🇯🇵 JPN CT/03 x1.0
-      - 🇯🇵 JPN IEPL.A/01 x3.0
-      - 🇯🇵 JPN IEPL.A/02 x3.0
-      - 🇯🇵 Lv.1 | 日本 | IEPL | 1.0×
-      - 🇯🇵 VIP|日本|中转|01|Lite
-      - 🇰🇭 柬埔寨
-      - 🇰🇷 Lv.2 | 韩国 | IEPL | 1.0×
-      - 🇱🇺 卢森堡
-      - 🇲🇴 MA|澳门
+      - 🇭🇰 HK 7｜openit.ml
+      - 🇭🇰 HK 8｜openit.ml
+      - 🇭🇰 HK 9｜openit.ml
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_1
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_2
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_3
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_4
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |_5
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8
+      - 🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
-      - 🇷🇺 RUS CM.A/01 x1.0
-      - 🇸🇬 ??SG-02|Main
-      - 🇸🇬 JCBB_新加坡02【vip1】
+      - 🇷🇺 RU 3｜openit.ml
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_1
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_2
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_3
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_4
+      - 🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc |_5
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
-      - 🇸🇬 SGP 02 x1.0 Trojan測試性節點
-      - 🇸🇬 SGP CM.A/01 x1.0
-      - 🇸🇬 SGP CM.A/02 x1.0
-      - 🇸🇬 SGP CM.B/01 x1.0
-      - 🇸🇬 SGP CM.B/02 x1.0
-      - 🇸🇬 SGP CT/01 x1.0
-      - 🇸🇬 SGP CT/02 x1.0
-      - 🇸🇬 SGP IEPL.A/01 x3.0
-      - 🇸🇬 SGP IEPL.A/02 x3.0
-      - 🇸🇬 新加坡 T-01 *直连 | x1
-      - 🇸🇬 新加坡 T-02 *直连 | x1
-      - 🇸🇬 新加坡 T-03 *原生 | x1
-      - 🇺🇸 Lv.1 | 美国 | IEPL| 1.0×
+      - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -597,31 +626,56 @@ proxy-groups:
       - 🇺🇸 US 25｜openit.ml
       - 🇺🇸 US 26｜openit.ml
       - 🇺🇸 US 27｜openit.ml
+      - 🇺🇸 US 28｜openit.ml
+      - 🇺🇸 US 29｜openit.ml
       - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 30｜openit.ml
+      - 🇺🇸 US 31｜openit.ml
+      - 🇺🇸 US 32｜openit.ml
+      - 🇺🇸 US 33｜openit.ml
+      - 🇺🇸 US 34｜openit.ml
+      - 🇺🇸 US 35｜openit.ml
+      - 🇺🇸 US 36｜openit.ml
+      - 🇺🇸 US 37｜openit.ml
+      - 🇺🇸 US 38｜openit.ml
+      - 🇺🇸 US 39｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 40｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 USA 01 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 02 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 03 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 04 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 05 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 06 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 07 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 08 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 09 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA 10 x1.0 [Trojan] [直連]
-      - 🇺🇸 USA CM.B/01 x1.0
-      - 🇺🇸 USA CM.B/02 x1.0
-      - 🇺🇸 USA CM.B/03 x1.0
-      - 🇺🇸 USA IEPL.A/01 x3.0
-      - 🇺🇸 USA IEPL.A/02 x3.0
-      - 🇺🇸 USA IEPL.A/03 x3.0
-      - 🇺🇸 拉斯维加斯
-      - 🇺🇸 美国
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_1
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_2
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_3
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_4
+      - 🇺🇸 美国 |  Trojan | C | 0.8x | 黃金 | 官網 | ninihao.cc |_5
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_1
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_2
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_3
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_4
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |_5
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_1
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_2
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_3
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_4
+      - 🇺🇸 美国 | Trojan | B | 0.8x | 黃金_5
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_1
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_10
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_11
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_12
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_13
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_14
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_15
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_2
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_3
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_4
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_5
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_6
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_7
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_8
+      - 🇺🇸 美国 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 @univstar_9
 rules:
  - MATCH,🌐 Proxy
