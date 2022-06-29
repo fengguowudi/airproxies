@@ -1,261 +1,123 @@
 proxies:
   - {name: CZ 1｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
   - {name: CZ 2｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: HK1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: JP1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: KR1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: RU1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: SG1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8050, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: TW1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: UA 1｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
-  - {name: UA 2｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: UA 3｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
-  - {name: UA 4｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: US1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: 距离下次重置剩余：1 天, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：2 天, server: 203.138.98.199, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：29 天, server: 120.232.238.137, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: c84849ea-4970-444c-9c61-3b7251fb7269, udp: true}
-  - {name: 🇦🇺 AU 1｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 2｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: UA 1｜openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
+  - {name: UA 2｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
+  - {name: UA 3｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
+  - {name: UA 4｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: UA 5｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 AU 1｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 1｜openit.ml, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10｜openit.ml, server: lt.yhy520.xyz, port: 58831, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11｜openit.ml, server: dx.yhy520.xyz, port: 58814, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12｜openit.ml, server: lt.yhy520.xyz, port: 58812, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13｜openit.ml, server: dx.yhy520.xyz, port: 58811, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 14｜openit.ml, server: lt.yhy520.xyz, port: 58810, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 15｜openit.ml, server: dx.yhy520.xyz, port: 58816, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 16｜openit.ml, server: dx.yhy520.xyz, port: 58817, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 17｜openit.ml, server: lt.yhy520.xyz, port: 58818, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 2｜openit.ml, server: 165.154.243.208, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 3｜openit.ml, server: 165.154.243.208, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 4｜openit.ml, server: 165.154.253.34, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 5｜openit.ml, server: 165.154.253.49, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 6｜openit.ml, server: 165.154.253.34, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 7｜openit.ml, server: 165.154.253.49, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 10｜openit.ml, server: lt.yhy520.xyz, port: 58806, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 11｜openit.ml, server: lt.yhy520.xyz, port: 58810, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 12｜openit.ml, server: dx.yhy520.xyz, port: 58809, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 13｜openit.ml, server: dx.yhy520.xyz, port: 58828, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 14｜openit.ml, server: lt.yhy520.xyz, port: 58827, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 15｜openit.ml, server: lt.yhy520.xyz, port: 58832, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 16｜openit.ml, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 17｜openit.ml, server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 18｜openit.ml, server: gzyd1.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 19｜openit.ml, server: gzyd1.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1｜openit.ml, server: dx.yhy520.xyz, port: 58821, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 20｜openit.ml, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 CN 21｜openit.ml, server: hnyd.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 22｜openit.ml, server: 29d78fe.pi.gladns.com, port: 3389, type: trojan, password: 8c72bafbd4837610, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 23｜openit.ml, server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 24｜openit.ml, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 2｜openit.ml, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3｜openit.ml, server: lt.yhy520.xyz, port: 58829, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4｜openit.ml, server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 5｜openit.ml, server: lt.yhy520.xyz, port: 58808, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 6｜openit.ml, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 7｜openit.ml, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 8｜openit.ml, server: dx.yhy520.xyz, port: 58805, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9｜openit.ml, server: lt.yhy520.xyz, port: 58813, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 JCBB_台湾01【vip2】, server: gkdcm.myjcbbcn.top, port: 25890, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇨🇳 JCBB_台湾02【vip2】, server: gkdcu.myjcbbcn.top, port: 25890, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇨🇳 JCBB_台湾04【vip2】, server: gkdcu.myjcbbcn.top, port: 25889, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
+  - {name: 🇨🇳 CN 19｜openit.ml, server: hnyd.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 20｜openit.ml, server: lt.yhy520.xyz, port: 58831, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 21｜openit.ml, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 22｜openit.ml, server: gzyd2.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 23｜openit.ml, server: gzyd1.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 24｜openit.ml, server: gzyd2.52147.top, port: 20160, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 25｜openit.ml, server: hnyd.52147.top, port: 20160, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 26｜openit.ml, server: dx.yhy520.xyz, port: 58817, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 27｜openit.ml, server: gzyd1.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 28｜openit.ml, server: dx.yhy520.xyz, port: 58816, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 29｜openit.ml, server: gzyd2.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2｜openit.ml, server: dx.yhy520.xyz, port: 58801, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 30｜openit.ml, server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 31｜openit.ml, server: gzyd2.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 32｜openit.ml, server: hnyd.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 33｜openit.ml, server: hnyd.52147.top, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, udp: true}
+  - {name: 🇨🇳 CN 34｜openit.ml, server: lt.yhy520.xyz, port: 58818, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 35｜openit.ml, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 36｜openit.ml, server: gzyd2.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 37｜openit.ml, server: gzyd1.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 38｜openit.ml, server: hnyd.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 39｜openit.ml, server: hnyd.52147.top, port: 49870, type: ss, cipher: chacha20-ietf-poly1305, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, udp: true}
+  - {name: 🇨🇳 CN 3｜openit.ml, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 40｜openit.ml, server: cs.bgp.liuliangzhuanfa.xyz, port: 32510, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xg1.xianggang1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 41｜openit.ml, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 4｜openit.ml, server: dx.yhy520.xyz, port: 58821, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 5｜openit.ml, server: lt.yhy520.xyz, port: 58831, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 6｜openit.ml, server: dx.yhy520.xyz, port: 58814, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 7｜openit.ml, server: lt.yhy520.xyz, port: 58808, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 8｜openit.ml, server: lt.yhy520.xyz, port: 58830, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 9｜openit.ml, server: dx.yhy520.xyz, port: 58805, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW 1｜openit.ml, server: hinet.52147.top, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 2｜openit.ml, server: 29d78fe.nf.gladns.com, port: 3389, type: trojan, password: 8c72bafbd4837610, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-1号 | 解锁流媒体, server: 165.154.243.208, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-1号 | 解锁流媒体 2, server: 165.154.243.208, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-2号 | 解锁流媒体, server: 165.154.253.34, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-2号 | 解锁流媒体 2, server: 165.154.253.34, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-3号 | 解锁流媒体, server: 165.154.253.49, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-3号 | 解锁流媒体 2, server: 165.154.253.49, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-广州移动2负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20160, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-广州移动负载均衡(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20160, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾-河南移动负载均衡(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20160, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体 2, server: hinet.52147.top, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet～广州移动 | 解锁流媒体, server: hnyd.52147.top, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, udp: true}
-  - {name: 🇨🇳 台湾Hinet～广州移动(中转) | 解锁流媒体, server: hnyd.52147.top, port: 49870, type: ss, cipher: chacha20-ietf-poly1305, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, udp: true}
-  - {name: 🇩🇪 JCBB_德国01【vip1】, server: gkdcm.myjcbbcn.top, port: 25883, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇩🇪 JCBB_德国02【vip1】, server: gkdcu.myjcbbcn.top, port: 25883, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇩🇪 德国-1号 | 解锁流媒体, server: 80.78.132.177, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广州移动2双线负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20060, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广州移动双线负载均衡(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20060, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广移2双线负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-河南移动双线负载均衡(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20060, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国🇩🇪｜高速节点, server: rbzz.jddsb.cf, port: 1002, type: vmess, uuid: 323730d4-7de1-4be2-acc8-185660bc4f97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: rbzz.jddsb.cf}}, udp: true}
-  - {name: 🇫🇷 FR 1｜openit.ml, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国🇫🇷｜高速节点, server: rbzz.jddsb.cf, port: 1001, type: vmess, uuid: 323730d4-7de1-4be2-acc8-185660bc4f97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: rbzz.jddsb.cf}}, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 JCBB_英国01【vip1】, server: gkdcm.myjcbbcn.top, port: 25884, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇬🇧 JCBB_英国02【vip1】, server: gkdcu.myjcbbcn.top, port: 25884, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇬🇧 英国🇬🇧｜高速节点, server: rbzz.jddsb.cf, port: 1003, type: vmess, uuid: 323730d4-7de1-4be2-acc8-185660bc4f97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: rbzz.jddsb.cf}}, udp: true}
-  - {name: 🇭🇰 Az香港1, server: hk1.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.youku.com}}, udp: true}
-  - {name: 🇭🇰 Az香港12, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk12.ningmengshui.xyz}}, udp: true}
-  - {name: 🇭🇰 Az香港4, server: hk4.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.ningmengshui.xyz}}, udp: true}
-  - {name: 🇭🇰 Az香港7, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 Az香港9, server: hk9.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm.toutiao.com}}, udp: true}
+  - {name: 🇨🇳 台湾1, server: gy.teacat2.xyz, port: 50003, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇨🇳 台湾2, server: gy.teacat2.xyz, port: 50068, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国, server: gy.teacat2.xyz, port: 50062, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
   - {name: 🇭🇰 HK 1｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 2｜openit.ml, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3｜openit.ml, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4｜openit.ml, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5｜openit.ml, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 6｜openit.ml, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 7｜openit.ml, server: azgy001.xiba1.xyz, port: 20716, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 JCBB_香港03【vip1】, server: gkdcm.myjcbbcn.top, port: 25898, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 JCBB_香港07【vip1】, server: gkdcm.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 JCBB_香港08【vip1】, server: gkdcm1.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 JCBB_香港11【vip3】, server: gkdcm.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 JCBB_香港12【vip3】, server: gkdcm1.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 001", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 002", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 001", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 002", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 003", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 001", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 002", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B1 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc1, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B2 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B4 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B4 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B4 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇭🇰 印度✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 台湾✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 日本✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 64340, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: rb1.riben1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 美国✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: mg3.meiguo01.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 003, server: 20.205.99.51, port: 50517, type: ss, cipher: chacha20-ietf-poly1305, password: cGw2a0dlRVVvZThmZndFTGUxR0VRUVdQWVBMQUthYWo=, udp: true}
-  - {name: 🇭🇰 香港 302, server: hk302.sagittarius-link.com, port: 61302, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 23801:hp492b0mq6o, obfs-param: 2380122338.download.windowsupdate.com, udp: true}
-  - {name: 🇭🇰 香港 ❀原生❀小妮妮❀1x, server: lt.yhy520.xyz, port: 58820, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 ❀大妮妮2号❀1x, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 ❀小妮妮1号❀1x, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 ❀小妮妮2号❀1x, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港隧道中转, server: 20.24.85.15, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 🇭🇰 香港高级IPLC, server: 20.239.156.36, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 🇭🇰 香港高速IEPL, server: 20.24.92.151, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 🇮🇩 印尼 ❀原生❀大妮妮❀1x, server: dx.yhy520.xyz, port: 58824, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 JCBB_印度01【vip1】, server: gkdcm.myjcbbcn.top, port: 25882, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇮🇳 JCBB_印度02【vip1】, server: gkdcu.myjcbbcn.top, port: 25882, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇮🇳 印度 ❀大妮妮❀1x, server: dx.yhy520.xyz, port: 58811, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: "🇮🇳 印度✈️中转   [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: "🇮🇳 印度✈️中转  [湖南长沙BGP]", server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JCBB_日本01【vip1】, server: gkdcm.myjcbbcn.top, port: 25888, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JCBB_日本02【vip1】, server: gkdcu.myjcbbcn.top, port: 25888, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JCBB_日本03【vip1】, server: gkdcm.myjcbbcn.top, port: 25887, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JCBB_日本04【vip1】, server: gkdcu.myjcbbcn.top, port: 25887, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JCBB_日本05【vip2】, server: gkdcm.myjcbbcn.top, port: 25902, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 JCBB_日本06【vip2】, server: gkdcm1.myjcbbcn.top, port: 25902, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
+  - {name: 🇭🇰 深港IEPL ⁴ˣ, server: iepl.teacat2.xyz, port: 50000, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇭🇰 香港-CMHK, server: gy.teacat2.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇭🇰 香港1, server: gy.teacat2.xyz, port: 50067, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
   - {name: 🇯🇵 JP 1｜openit.ml, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626hk02.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2｜openit.ml, server: 203.138.98.199, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3｜openit.ml, server: jpgmo.crunode.top, port: 1400, type: trojan, password: fc578146-8cfb-3c32-97e0-67621c90b130, sni: jpgmo.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-1号, server: 203.138.98.199, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-2号, server: 164.70.68.67, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-广州移动 | (中转), server: gzyd1.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-广州移动2 | (中转), server: gzyd2.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-河南移动 | (中转), server: hnyd.52147.top, port: 20120, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 JCBB_韩国01【vip2】, server: gkdcm.myjcbbcn.top, port: 25881, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇰🇷 JCBB_韩国02【vip2】, server: gkdcu.myjcbbcn.top, port: 25881, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇰🇷 韩国首尔, server: 36.139.154.162, port: 45303, type: trojan, password: 45a02ace-0d89-45a8-92a1-ecaf81d870b9, sni: hg01.chunyua.online, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇴 MA|澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 375e1e34-8f6f-39be-bdb9-52080f546d4d, sni: ma-ctm.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 JCBB_ 马来西亚01【vip2】, server: gkdcm.myjcbbcn.top, port: 25900, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇲🇾 JCBB_ 马来西亚02【vip2】, server: gkdcm1.myjcbbcn.top, port: 25900, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇲🇾 MY 1｜openit.ml, server: my02.hmkj55.xyz, port: 54444, type: trojan, password: 1ac27c98-7883-483b-b958-7d6a68b60663, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇱 波兰🇵🇱｜高速节点, server: rbzz.jddsb.cf, port: 1000, type: vmess, uuid: 323730d4-7de1-4be2-acc8-185660bc4f97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: rbzz.jddsb.cf}}, udp: true}
-  - {name: 🇷🇺 RU 1｜openit.ml, server: t03.ssrsub.com, port: 8443, type: trojan, password: fb61d738-ef95-446d-9004-c93a1a975cad, sni: d76bb35696.wns.windows.com, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 2｜openit.ml, server: sg1.crunode.top, port: 443, type: trojan, password: beada0a3-cdc3-3b21-affc-bb9e9d5ff891, sni: sg1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 3｜openit.ml, server: us1.nodegz.top, port: 1400, type: trojan, password: fc578146-8cfb-3c32-97e0-67621c90b130, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 JCBB_新加坡01【vip1】, server: gkdcm.myjcbbcn.top, port: 25895, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇸🇬 JCBB_新加坡02【vip1】, server: gkdcm1.myjcbbcn.top, port: 25895, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇸🇬 JCBB_新加坡03【vip1】, server: gkdcm.myjcbbcn.top, port: 25894, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇸🇬 JCBB_新加坡04【vip1】, server: gkdcm1.myjcbbcn.top, port: 25894, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇸🇬 SG 1｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 2｜openit.ml, server: 203.138.98.199, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 3｜openit.ml, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 4｜openit.ml, server: 203.138.98.199, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 5｜openit.ml, server: 164.70.68.67, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本1, server: gy.teacat2.xyz, port: 50060, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇯🇵 日本2, server: sh.teacat2.xyz, port: 50060, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇰🇷 韩国, server: sh.teacat2.xyz, port: 50058, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇷🇺 RU 1｜openit.ml, server: us1.nodegz.top, port: 1400, type: trojan, password: fc578146-8cfb-3c32-97e0-67621c90b130, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 14572, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 3｜openit.ml, server: t03.ssrsub.com, port: 8443, type: trojan, password: fb61d738-ef95-446d-9004-c93a1a975cad, sni: d76bb35696.wns.windows.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 1｜openit.ml, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 2｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城01 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp1, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城02 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城02 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城02 | 中转 003", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城03 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城03 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城04 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城04 | 中转 003", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城05 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: a2a37460-2a05-3211-b0d6-d0b37971f84e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp5, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城05 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp5, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇸🇬 [LV1·解锁] 狮城05 | 中转 003", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp5, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 🇸🇬 大萝卜鸡🇸🇬新加坡高速1, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
-  - {name: 🇸🇬 大萝卜鸡🇸🇬新加坡高速2, server: 626sg02.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg02.fx6688.top}}, udp: true}
-  - {name: 🇸🇬 新加坡2, server: 626sg02.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg02.fx6688.top}}, udp: true}
-  - {name: 🇸🇬 新加坡优化|X0.01, server: 626sg.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡直连, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇭 泰国 ❀原生❀大妮妮❀1x\t", server: dx.yhy520.xyz, port: 58825, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 JCBB_美国01【vip1】, server: gkdcm.myjcbbcn.top, port: 25886, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇺🇸 JCBB_美国02【vip1】, server: gkdcu.myjcbbcn.top, port: 25886, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇺🇸 JCBB_美国03【vip1】, server: gkdcm.myjcbbcn.top, port: 25885, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇺🇸 JCBB_美国04【vip1】, server: gkdcu.myjcbbcn.top, port: 25885, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 14｜openit.ml, server: gb.v2yyds.com, port: 32913, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 15｜openit.ml, server: gb.v2yyds.com, port: 32911, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 16｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 17｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 18｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 19｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 20｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 21｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 22｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 23｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 24｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 25｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 26｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 27｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 28｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 29｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 30｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 31｜openit.ml, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 3｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡, server: gy.teacat2.xyz, port: 50065, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇹🇷 土耳其, server: gy.teacat2.xyz, port: 50069, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇺🇸 US 10｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11｜openit.ml, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 13｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 14｜openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 15｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 16｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 17｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 18｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 19｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 20｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 21｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 22｜openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 23｜openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 24｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 25｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: mg3.meiguo01.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 26｜openit.ml, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 27｜openit.ml, server: us-03.licom.ml, port: 8443, type: trojan, password: a45be70d-abf2-4069-804e-e79ef87ad610, sni: us-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 28｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 29｜openit.ml, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: gb.v2yyds.com, port: 32913, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 30｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 31｜openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 32｜openit.ml, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 33｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 34｜openit.ml, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 35｜openit.ml, server: sgg.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 36｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 22818, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xg1.xianggang1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 37｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 38｜openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 39｜openit.ml, server: HJ001.xiba1.xyz, port: 20770, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 40｜openit.ml, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 41｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 42｜openit.ml, server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: mg3.meiguo01.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 43｜openit.ml, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 44｜openit.ml, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: us-03.licom.ml, port: 8443, type: trojan, password: a45be70d-abf2-4069-804e-e79ef87ad610, sni: us-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [LV2·原生] 美国03 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-usa3-242, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇺🇸 [LV2·原生] 美国04 | 中转 001", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-usa4-243, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "🇺🇸 [LV2·原生] 美国04 | 中转 002", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-usa4-243, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 🇺🇸 美国, server: 119.36.161.40, port: 443, type: vmess, uuid: 5e38275e-f168-11ec-a6d0-42010a800003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /HbedXBnw/, headers: {Host: us.batcloud.bond}}, udp: true}
-  - {name: 🇺🇸 美国 G51 | 直连 | 0x, server: 141.98.168.251, port: 443, type: trojan, password: LiX1tV, sni: cdnu2.ft2.us, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 ❀原生❀小妮妮❀1x, server: lt.yhy520.xyz, port: 58832, type: trojan, password: 38f72cd9-0cbc-3b1e-ab65-e8e3642855ae, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国原生3-负载均衡-解锁流媒体, server: us3.lolvps.xyz, port: 60072, type: vmess, uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /G0DXUQOM, headers: {Host: "%257B%2522Host%2522:%2522us3.lolvps.xyz%2522%257D"}}, udp: true}
-  - {name: 🇻🇳 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 | 广州移动(中转), server: gzyd1.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 | 广州移动2, server: gzyd2.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 | 广州移动2(中转), server: gzyd2.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 | 河南移动, server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 | 河南移动(中转), server: hnyd.52147.top, port: 20110, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 ❀原生❀大妮妮❀1x, server: dx.yhy520.xyz, port: 58814, type: trojan, password: 1e51e81c-18ac-34ad-9209-85e83d795847, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-1号 2, server: 103.173.255.21, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-2号 2, server: 103.173.255.127, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-3号 2, server: 103.173.255.228, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南-4号 2, server: 103.173.255.234, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 33｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: gb.v2yyds.com, port: 32911, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国1, server: gy.teacat2.xyz, port: 50066, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
+  - {name: 🇺🇸 美国3, server: sh.teacat2.xyz, port: 50066, type: ss, cipher: aes-256-gcm, password: 33045347-7c88-4967-b1f4-7800f5fe11c6, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
@@ -264,23 +126,20 @@ proxy-groups:
       - DIRECT
       - CZ 1｜openit.ml
       - CZ 2｜openit.ml
-      - HK1(IEPL) - 负载均衡专线
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - RU1(IEPL) - 负载均衡专线
-      - SG1(IEPL) - 负载均衡专线
-      - TW1(IEPL) - 负载均衡专线
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
-      - US1(IEPL) - 负载均衡专线
-      - 距离下次重置剩余：1 天
-      - 距离下次重置剩余：2 天
-      - 距离下次重置剩余：29 天
+      - UA 5｜openit.ml
       - 🇦🇺 AU 1｜openit.ml
       - 🇦🇺 AU 2｜openit.ml
       - 🇨🇦 CA 1｜openit.ml
+      - 🇨🇦 CA 2｜openit.ml
+      - 🇨🇦 CA 3｜openit.ml
+      - 🇨🇦 CA 4｜openit.ml
+      - 🇨🇦 CA 5｜openit.ml
+      - 🇨🇦 CA 6｜openit.ml
+      - 🇨🇦 CA 7｜openit.ml
       - 🇨🇳 CN 10｜openit.ml
       - 🇨🇳 CN 11｜openit.ml
       - 🇨🇳 CN 12｜openit.ml
@@ -297,162 +156,58 @@ proxy-groups:
       - 🇨🇳 CN 22｜openit.ml
       - 🇨🇳 CN 23｜openit.ml
       - 🇨🇳 CN 24｜openit.ml
+      - 🇨🇳 CN 25｜openit.ml
+      - 🇨🇳 CN 26｜openit.ml
+      - 🇨🇳 CN 27｜openit.ml
+      - 🇨🇳 CN 28｜openit.ml
+      - 🇨🇳 CN 29｜openit.ml
       - 🇨🇳 CN 2｜openit.ml
+      - 🇨🇳 CN 30｜openit.ml
+      - 🇨🇳 CN 31｜openit.ml
+      - 🇨🇳 CN 32｜openit.ml
+      - 🇨🇳 CN 33｜openit.ml
+      - 🇨🇳 CN 34｜openit.ml
+      - 🇨🇳 CN 35｜openit.ml
+      - 🇨🇳 CN 36｜openit.ml
+      - 🇨🇳 CN 37｜openit.ml
+      - 🇨🇳 CN 38｜openit.ml
+      - 🇨🇳 CN 39｜openit.ml
       - 🇨🇳 CN 3｜openit.ml
+      - 🇨🇳 CN 40｜openit.ml
+      - 🇨🇳 CN 41｜openit.ml
       - 🇨🇳 CN 4｜openit.ml
       - 🇨🇳 CN 5｜openit.ml
       - 🇨🇳 CN 6｜openit.ml
       - 🇨🇳 CN 7｜openit.ml
       - 🇨🇳 CN 8｜openit.ml
       - 🇨🇳 CN 9｜openit.ml
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇨🇳 JCBB_台湾02【vip2】
-      - 🇨🇳 JCBB_台湾04【vip2】
       - 🇨🇳 TW 1｜openit.ml
-      - 🇨🇳 TW 2｜openit.ml
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇨🇳 台湾-1号 | 解锁流媒体
-      - 🇨🇳 台湾-1号 | 解锁流媒体 2
-      - 🇨🇳 台湾-2号 | 解锁流媒体
-      - 🇨🇳 台湾-2号 | 解锁流媒体 2
-      - 🇨🇳 台湾-3号 | 解锁流媒体
-      - 🇨🇳 台湾-3号 | 解锁流媒体 2
-      - 🇨🇳 台湾-广州移动2负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-广州移动2负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾-广州移动负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-广州移动负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾-河南移动负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-河南移动负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体 2
-      - 🇨🇳 台湾Hinet～广州移动 | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动(中转) | 解锁流媒体
-      - 🇩🇪 JCBB_德国01【vip1】
-      - 🇩🇪 JCBB_德国02【vip1】
-      - 🇩🇪 德国-1号 | 解锁流媒体
-      - 🇩🇪 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-广移2双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-河移双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国🇩🇪｜高速节点
-      - 🇫🇷 FR 1｜openit.ml
-      - 🇫🇷 法国🇫🇷｜高速节点
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
-      - 🇬🇧 JCBB_英国01【vip1】
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇬🇧 英国🇬🇧｜高速节点
-      - 🇭🇰 Az香港1
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港4
-      - 🇭🇰 Az香港7
-      - 🇭🇰 Az香港9
+      - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 英国
       - 🇭🇰 HK 1｜openit.ml
-      - 🇭🇰 HK 2｜openit.ml
-      - 🇭🇰 HK 3｜openit.ml
-      - 🇭🇰 HK 4｜openit.ml
-      - 🇭🇰 HK 5｜openit.ml
-      - 🇭🇰 HK 6｜openit.ml
-      - 🇭🇰 HK 7｜openit.ml
-      - 🇭🇰 JCBB_香港03【vip1】
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇭🇰 JCBB_香港11【vip3】
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 003
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港B1 | 中转
-      - 🇭🇰 [LV2·原生] 香港B2 | 中转
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转 001
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转 002
-      - 🇭🇰 印度✈️中转 [香港Azure]
-      - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 302
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 香港 ❀大妮妮2号❀1x
-      - 🇭🇰 香港 ❀小妮妮1号❀1x
-      - 🇭🇰 香港 ❀小妮妮2号❀1x
-      - 🇭🇰 香港隧道中转
-      - 🇭🇰 香港高级IPLC
-      - 🇭🇰 香港高速IEPL
-      - 🇮🇩 印尼 ❀原生❀大妮妮❀1x
-      - 🇮🇳 JCBB_印度01【vip1】
-      - 🇮🇳 JCBB_印度02【vip1】
-      - 🇮🇳 印度 ❀大妮妮❀1x
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
-      - 🇮🇳 印度✈️中转  [湖南长沙BGP]
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇯🇵 JCBB_日本04【vip1】
-      - 🇯🇵 JCBB_日本05【vip2】
-      - 🇯🇵 JCBB_日本06【vip2】
+      - 🇭🇰 深港IEPL ⁴ˣ
+      - 🇭🇰 香港-CMHK
+      - 🇭🇰 香港1
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
       - 🇯🇵 JP 3｜openit.ml
-      - 🇯🇵 日本NTT-1号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动 | (中转)
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
-      - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇯🇵 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 🇰🇷 JCBB_韩国01【vip2】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇰🇷 韩国首尔
-      - 🇲🇴 MA|澳门
-      - 🇲🇾 JCBB_ 马来西亚01【vip2】
-      - 🇲🇾 JCBB_ 马来西亚02【vip2】
-      - 🇲🇾 MY 1｜openit.ml
-      - 🇵🇱 波兰🇵🇱｜高速节点
+      - 🇯🇵 JP 4｜openit.ml
+      - 🇯🇵 JP 5｜openit.ml
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
-      - 🇸🇬 JCBB_新加坡01【vip1】
-      - 🇸🇬 JCBB_新加坡02【vip1】
-      - 🇸🇬 JCBB_新加坡03【vip1】
-      - 🇸🇬 JCBB_新加坡04【vip1】
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
-      - 🇸🇬 [LV1·解锁] 狮城01 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 003
-      - 🇸🇬 [LV1·解锁] 狮城03 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城03 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城04 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城04 | 中转 003
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 003
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡优化|X0.01
-      - 🇸🇬 新加坡直连
-      - "🇹🇭 泰国 ❀原生❀大妮妮❀1x\t"
-      - 🇺🇸 JCBB_美国01【vip1】
-      - 🇺🇸 JCBB_美国02【vip1】
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 新加坡
+      - 🇹🇷 土耳其
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -479,46 +234,15 @@ proxy-groups:
       - 🇺🇸 US 31｜openit.ml
       - 🇺🇸 US 32｜openit.ml
       - 🇺🇸 US 33｜openit.ml
-      - 🇺🇸 US 34｜openit.ml
-      - 🇺🇸 US 35｜openit.ml
-      - 🇺🇸 US 36｜openit.ml
-      - 🇺🇸 US 37｜openit.ml
-      - 🇺🇸 US 38｜openit.ml
-      - 🇺🇸 US 39｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 40｜openit.ml
-      - 🇺🇸 US 41｜openit.ml
-      - 🇺🇸 US 42｜openit.ml
-      - 🇺🇸 US 43｜openit.ml
-      - 🇺🇸 US 44｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 [LV2·原生] 美国03 | 中转
-      - 🇺🇸 [LV2·原生] 美国04 | 中转 001
-      - 🇺🇸 [LV2·原生] 美国04 | 中转 002
-      - 🇺🇸 美国
-      - 🇺🇸 美国 G51 | 直连 | 0x
-      - 🇺🇸 美国 ❀原生❀小妮妮❀1x
-      - 🇺🇸 美国原生3-负载均衡-解锁流媒体
-      - 🇻🇳 越南 | 广州移动
-      - 🇻🇳 越南 | 广州移动(中转)
-      - 🇻🇳 越南 | 广州移动2
-      - 🇻🇳 越南 | 广州移动2(中转)
-      - 🇻🇳 越南 | 河南移动
-      - 🇻🇳 越南 | 河南移动(中转)
-      - 🇻🇳 越南 ❀原生❀大妮妮❀1x
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-1号 2
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-2号 2
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-3号 2
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-4号 2
+      - 🇺🇸 美国1
+      - 🇺🇸 美国3
   - name: 💡 Auto
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -527,23 +251,20 @@ proxy-groups:
     proxies:
       - CZ 1｜openit.ml
       - CZ 2｜openit.ml
-      - HK1(IEPL) - 负载均衡专线
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - RU1(IEPL) - 负载均衡专线
-      - SG1(IEPL) - 负载均衡专线
-      - TW1(IEPL) - 负载均衡专线
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
-      - US1(IEPL) - 负载均衡专线
-      - 距离下次重置剩余：1 天
-      - 距离下次重置剩余：2 天
-      - 距离下次重置剩余：29 天
+      - UA 5｜openit.ml
       - 🇦🇺 AU 1｜openit.ml
       - 🇦🇺 AU 2｜openit.ml
       - 🇨🇦 CA 1｜openit.ml
+      - 🇨🇦 CA 2｜openit.ml
+      - 🇨🇦 CA 3｜openit.ml
+      - 🇨🇦 CA 4｜openit.ml
+      - 🇨🇦 CA 5｜openit.ml
+      - 🇨🇦 CA 6｜openit.ml
+      - 🇨🇦 CA 7｜openit.ml
       - 🇨🇳 CN 10｜openit.ml
       - 🇨🇳 CN 11｜openit.ml
       - 🇨🇳 CN 12｜openit.ml
@@ -560,162 +281,58 @@ proxy-groups:
       - 🇨🇳 CN 22｜openit.ml
       - 🇨🇳 CN 23｜openit.ml
       - 🇨🇳 CN 24｜openit.ml
+      - 🇨🇳 CN 25｜openit.ml
+      - 🇨🇳 CN 26｜openit.ml
+      - 🇨🇳 CN 27｜openit.ml
+      - 🇨🇳 CN 28｜openit.ml
+      - 🇨🇳 CN 29｜openit.ml
       - 🇨🇳 CN 2｜openit.ml
+      - 🇨🇳 CN 30｜openit.ml
+      - 🇨🇳 CN 31｜openit.ml
+      - 🇨🇳 CN 32｜openit.ml
+      - 🇨🇳 CN 33｜openit.ml
+      - 🇨🇳 CN 34｜openit.ml
+      - 🇨🇳 CN 35｜openit.ml
+      - 🇨🇳 CN 36｜openit.ml
+      - 🇨🇳 CN 37｜openit.ml
+      - 🇨🇳 CN 38｜openit.ml
+      - 🇨🇳 CN 39｜openit.ml
       - 🇨🇳 CN 3｜openit.ml
+      - 🇨🇳 CN 40｜openit.ml
+      - 🇨🇳 CN 41｜openit.ml
       - 🇨🇳 CN 4｜openit.ml
       - 🇨🇳 CN 5｜openit.ml
       - 🇨🇳 CN 6｜openit.ml
       - 🇨🇳 CN 7｜openit.ml
       - 🇨🇳 CN 8｜openit.ml
       - 🇨🇳 CN 9｜openit.ml
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇨🇳 JCBB_台湾02【vip2】
-      - 🇨🇳 JCBB_台湾04【vip2】
       - 🇨🇳 TW 1｜openit.ml
-      - 🇨🇳 TW 2｜openit.ml
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇨🇳 台湾-1号 | 解锁流媒体
-      - 🇨🇳 台湾-1号 | 解锁流媒体 2
-      - 🇨🇳 台湾-2号 | 解锁流媒体
-      - 🇨🇳 台湾-2号 | 解锁流媒体 2
-      - 🇨🇳 台湾-3号 | 解锁流媒体
-      - 🇨🇳 台湾-3号 | 解锁流媒体 2
-      - 🇨🇳 台湾-广州移动2负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-广州移动2负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾-广州移动负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-广州移动负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾-河南移动负载均衡 | 解锁流媒体
-      - 🇨🇳 台湾-河南移动负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体 2
-      - 🇨🇳 台湾Hinet～广州移动 | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动(中转) | 解锁流媒体
-      - 🇩🇪 JCBB_德国01【vip1】
-      - 🇩🇪 JCBB_德国02【vip1】
-      - 🇩🇪 德国-1号 | 解锁流媒体
-      - 🇩🇪 德国-广州移动2双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-广州移动双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-广移2双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国-河南移动双线负载均衡(中转) | 解锁流媒体
-      - 🇩🇪 德国-河移双线负载均衡 | 解锁流媒体
-      - 🇩🇪 德国🇩🇪｜高速节点
-      - 🇫🇷 FR 1｜openit.ml
-      - 🇫🇷 法国🇫🇷｜高速节点
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
-      - 🇬🇧 JCBB_英国01【vip1】
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇬🇧 英国🇬🇧｜高速节点
-      - 🇭🇰 Az香港1
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港4
-      - 🇭🇰 Az香港7
-      - 🇭🇰 Az香港9
+      - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 英国
       - 🇭🇰 HK 1｜openit.ml
-      - 🇭🇰 HK 2｜openit.ml
-      - 🇭🇰 HK 3｜openit.ml
-      - 🇭🇰 HK 4｜openit.ml
-      - 🇭🇰 HK 5｜openit.ml
-      - 🇭🇰 HK 6｜openit.ml
-      - 🇭🇰 HK 7｜openit.ml
-      - 🇭🇰 JCBB_香港03【vip1】
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇭🇰 JCBB_香港11【vip3】
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x 003
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 001
-      - 🇭🇰 [LV2·原生] 香港04 | IEPL 专线 | 3x 002
-      - 🇭🇰 [LV2·原生] 香港B1 | 中转
-      - 🇭🇰 [LV2·原生] 香港B2 | 中转
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转 001
-      - 🇭🇰 [LV2·原生] 香港B4 | 中转 002
-      - 🇭🇰 印度✈️中转 [香港Azure]
-      - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇭🇰 香港 003
-      - 🇭🇰 香港 302
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 香港 ❀大妮妮2号❀1x
-      - 🇭🇰 香港 ❀小妮妮1号❀1x
-      - 🇭🇰 香港 ❀小妮妮2号❀1x
-      - 🇭🇰 香港隧道中转
-      - 🇭🇰 香港高级IPLC
-      - 🇭🇰 香港高速IEPL
-      - 🇮🇩 印尼 ❀原生❀大妮妮❀1x
-      - 🇮🇳 JCBB_印度01【vip1】
-      - 🇮🇳 JCBB_印度02【vip1】
-      - 🇮🇳 印度 ❀大妮妮❀1x
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
-      - 🇮🇳 印度✈️中转  [湖南长沙BGP]
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇯🇵 JCBB_日本04【vip1】
-      - 🇯🇵 JCBB_日本05【vip2】
-      - 🇯🇵 JCBB_日本06【vip2】
+      - 🇭🇰 深港IEPL ⁴ˣ
+      - 🇭🇰 香港-CMHK
+      - 🇭🇰 香港1
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
       - 🇯🇵 JP 3｜openit.ml
-      - 🇯🇵 日本NTT-1号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动 | (中转)
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
-      - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇯🇵 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 🇰🇷 JCBB_韩国01【vip2】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇰🇷 韩国首尔
-      - 🇲🇴 MA|澳门
-      - 🇲🇾 JCBB_ 马来西亚01【vip2】
-      - 🇲🇾 JCBB_ 马来西亚02【vip2】
-      - 🇲🇾 MY 1｜openit.ml
-      - 🇵🇱 波兰🇵🇱｜高速节点
+      - 🇯🇵 JP 4｜openit.ml
+      - 🇯🇵 JP 5｜openit.ml
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
-      - 🇸🇬 JCBB_新加坡01【vip1】
-      - 🇸🇬 JCBB_新加坡02【vip1】
-      - 🇸🇬 JCBB_新加坡03【vip1】
-      - 🇸🇬 JCBB_新加坡04【vip1】
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
-      - 🇸🇬 [LV1·解锁] 狮城01 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城02 | 中转 003
-      - 🇸🇬 [LV1·解锁] 狮城03 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城03 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城04 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城04 | 中转 003
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 001
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 002
-      - 🇸🇬 [LV1·解锁] 狮城05 | 中转 003
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡优化|X0.01
-      - 🇸🇬 新加坡直连
-      - "🇹🇭 泰国 ❀原生❀大妮妮❀1x\t"
-      - 🇺🇸 JCBB_美国01【vip1】
-      - 🇺🇸 JCBB_美国02【vip1】
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 新加坡
+      - 🇹🇷 土耳其
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -742,45 +359,14 @@ proxy-groups:
       - 🇺🇸 US 31｜openit.ml
       - 🇺🇸 US 32｜openit.ml
       - 🇺🇸 US 33｜openit.ml
-      - 🇺🇸 US 34｜openit.ml
-      - 🇺🇸 US 35｜openit.ml
-      - 🇺🇸 US 36｜openit.ml
-      - 🇺🇸 US 37｜openit.ml
-      - 🇺🇸 US 38｜openit.ml
-      - 🇺🇸 US 39｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 40｜openit.ml
-      - 🇺🇸 US 41｜openit.ml
-      - 🇺🇸 US 42｜openit.ml
-      - 🇺🇸 US 43｜openit.ml
-      - 🇺🇸 US 44｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 [LV2·原生] 美国03 | 中转
-      - 🇺🇸 [LV2·原生] 美国04 | 中转 001
-      - 🇺🇸 [LV2·原生] 美国04 | 中转 002
-      - 🇺🇸 美国
-      - 🇺🇸 美国 G51 | 直连 | 0x
-      - 🇺🇸 美国 ❀原生❀小妮妮❀1x
-      - 🇺🇸 美国原生3-负载均衡-解锁流媒体
-      - 🇻🇳 越南 | 广州移动
-      - 🇻🇳 越南 | 广州移动(中转)
-      - 🇻🇳 越南 | 广州移动2
-      - 🇻🇳 越南 | 广州移动2(中转)
-      - 🇻🇳 越南 | 河南移动
-      - 🇻🇳 越南 | 河南移动(中转)
-      - 🇻🇳 越南 ❀原生❀大妮妮❀1x
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-1号 2
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-2号 2
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-3号 2
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-4号 2
+      - 🇺🇸 美国1
+      - 🇺🇸 美国3
 rules:
  - MATCH,🌐 Proxy
